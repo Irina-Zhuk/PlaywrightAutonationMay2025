@@ -30,7 +30,7 @@ jobs:
         run: npx playwright install --with-deps
       # 5. Install Playwright
       - name: Run tests
-        run: npm run formPage
+        run: npx playwright test form_page.spec.ts
 
 
 
