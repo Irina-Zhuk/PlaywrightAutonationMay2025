@@ -1,0 +1,21 @@
+{
+  "name": "playwrightautomation2025",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "formPage": "npx playwright test form_page.spec.ts --headed",
+    "formPageHeadless": "npx playwright test form_page.spec.ts --headless",
+    "datePicker": "npx playwright test date_picker.spec.ts --headed"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@playwright/test": "^1.52.0",
+    "@types/node": "^22.15.21"
+  },
+  "dependencies": {
+    "lodash": "^4.17.21"
+  }
+}
